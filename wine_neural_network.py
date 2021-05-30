@@ -109,3 +109,5 @@ for i in range(100):
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
     print("Cost:{0} | Accuracy:{1}".format(cost, accuracy.eval({x: X_test, y_: Y_test})))
 
+print("done")
+
